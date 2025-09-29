@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Full stack with S3 bucket
+
+Resources:
+
+  ### S3 Bucket ###
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: punidha12
